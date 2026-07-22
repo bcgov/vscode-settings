@@ -1,4 +1,9 @@
-# Agent Instructions
+# Agent Instructions (DEPRECATED & RETIRED)
+
+> [!WARNING]
+> **THIS REPOSITORY IS DEPRECATED & SCHEDULED FOR ARCHIVAL.**
+> Work-related AI guidelines and developer rules have been consolidated into **[quickstart-openshift](https://github.com/bcgov/quickstart-openshift)**. Personal developer rules live in local workstation `dotfiles`.
+> This repository is locked for maintenance and will be formally archived.
 
 Guidelines for AI-assisted development, written with the intent of becoming a practical standard for teams across the Government of British Columbia.
 
