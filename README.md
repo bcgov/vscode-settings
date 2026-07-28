@@ -1,5 +1,12 @@
 # Agent Instructions
 
+> [!NOTE]
+> **Project Status: Dormant**
+> 
+> The instructions in [instructions.md](instructions.md) are complete and available for individual developer or project-level use. Active updates are currently paused pending org-level adoption as default Copilot instructions in `bcgov`.
+> 
+> If you are interested in adopting this for your team or pushing for org-level enablement, feel free to open an issue or pull request.
+
 Guidelines for AI-assisted development, written with the intent of becoming a practical standard for teams across the Government of British Columbia.
 
 > **Not an official BC Government publication.** Content here reflects community work in progress. It does not speak for, bind, or represent the Province of British Columbia. We welcome contributors so this can grow into something genuinely useful for public-sector developers in BC.
