@@ -1,8 +1,15 @@
 # Agent Instructions
 
+> [!NOTE]
+> **Project Status: Dormant**
+> 
+> The Copilot guidelines in [instructions.md](instructions.md) are complete and can be used immediately in your local setup or individual repositories.
+> 
+> We are looking for someone to champion these instructions for org-wide adoption across the `bcgov` GitHub organization. If you have the interest and influence to push this forward with platform administrators, please open an issue or discussion in this repository to coordinate.
+
 Guidelines for AI-assisted development, written with the intent of becoming a practical standard for teams across the Government of British Columbia.
 
-> **Not an official BC Government publication.** Content here reflects community work in progress. It does not speak for, bind, or represent the Province of British Columbia. We welcome contributors so this can grow into something genuinely useful for public-sector developers in BC.
+> **Not an official BC Government publication.** This repository does not speak for, bind, or represent the Province of British Columbia.
 
 The canonical text lives in **[instructions.md](instructions.md)** at the repo root.
 
