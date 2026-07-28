@@ -50,7 +50,8 @@
 ### Git Workflow
 1. Branch: ALWAYS checkout a new feature branch from `origin/main`.
 2. Update: ALWAYS fetch and merge `origin/main` before new edits or pushing.
-3. Close: Use `Closes #<num>` ONLY if an issue is explicitly provided. NEVER guess.
+3. PR Feedback: ALWAYS fetch inline review comments via `unset GITHUB_TOKEN && gh api repos/:owner/:repo/pulls/:num/comments` (NEVER rely solely on `gh pr view`).
+4. Close: Use `Closes #<num>` ONLY if an issue is explicitly provided. NEVER guess.
 
 ### Project Standards
 - ALWAYS use Conventional Commits. ALWAYS use latest stable packages; NEVER downgrade or edit lock files silently.
