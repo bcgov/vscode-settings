@@ -9,7 +9,7 @@
 
 Guidelines for AI-assisted development, written with the intent of becoming a practical standard for teams across the Government of British Columbia.
 
-> **Not an official BC Government publication.** Content here reflects community work in progress. It does not speak for, bind, or represent the Province of British Columbia. We welcome contributors so this can grow into something genuinely useful for public-sector developers in BC.
+> **Not an official BC Government publication.** This repository does not speak for, bind, or represent the Province of British Columbia.
 
 The canonical text lives in **[instructions.md](instructions.md)** at the repo root.
 
