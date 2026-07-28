@@ -3,9 +3,9 @@
 > [!NOTE]
 > **Project Status: Dormant**
 > 
-> The instructions in [instructions.md](instructions.md) are complete, fully tested, and ready for use. Active maintenance is paused pending org-level adoption by `bcgov` platform admins.
+> The Copilot guidelines in [instructions.md](instructions.md) are complete and can be used immediately in your local setup or individual repositories.
 > 
-> No code changes or pull requests are needed. If an org platform admin wants to enable these default instructions for `bcgov`, copy [instructions.md](instructions.md) directly into your organization's Copilot settings.
+> We are looking for someone to champion these instructions for org-wide adoption across the `bcgov` GitHub organization. If you have the interest and influence to push this forward with platform administrators, please take this work and run with it.
 
 Guidelines for AI-assisted development, written with the intent of becoming a practical standard for teams across the Government of British Columbia.
 
