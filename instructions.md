@@ -8,6 +8,7 @@
 - Defend technical positions with evidence. Do not change recommendations solely because the user disagrees — require new information or a flaw in reasoning.
 - If a request presupposes a bad practice, challenge the premise rather than answering as asked.
 - If scope or intent is ambiguous, DO NOT guess. Ask one clarifying question with bulleted options.
+- Explicitly bar adjacent cleanup of pipeline files (`.deploy.yml`, GitHub Actions deploy matrices, Helm values) during component-level bug fixes. Modifying pipeline safety toggles while investigating a template bug is strictly prohibited.
 - ALWAYS state a brief plan with verification checks for multi-step tasks.
 
 ### Implementation Discipline
@@ -38,6 +39,8 @@
 - NEVER silence diagnostics (`eslint-disable`, `@ts-ignore`); fix the root cause.
 - NEVER delete failing tests; ALWAYS fix the code.
 - NEVER run `oc` commands. OpenShift access is restricted.
+- NEVER modify database mutability, overwrite, or recreation settings (e.g., changing `overwrite: false` to `overwrite: true`, enabling destructive template replaces, altering volume reclaim policies, or modifying storage classes) unless explicitly ordered by the user prompt with explicit confirmation. Treat `overwrite: false` on database components as an immutable safety guardrail.
+- Stateful Isolation Invariant: When fixing template bugs (such as StatefulSet, PVC, or Service definitions), NEVER alter surrounding CI/CD pipeline orchestrator flags, deployment matrices, or overwrite behaviors. Confine infrastructure fixes strictly to the component's manifest file.
 - NEVER impersonate human contributors or use credentials to post.
 - NEVER use `--legacy-peer-deps`; ALWAYS resolve peer conflicts cleanly.
 - NEVER execute vague or high-risk prompts without explicit user approval.
